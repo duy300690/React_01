@@ -44,8 +44,7 @@ const Game = () => {
       },
     });
   };
-  const handleResetGame = () => {
-    //setBoard(Array(9).fill(null));
+  const handleResetGame = () => { 
     dispatch({
       type: "RESET",
       payload: {
