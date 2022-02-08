@@ -44,7 +44,7 @@ const Game = () => {
       },
     });
   };
-  const handleResetGame = () => { 
+  const handleResetGame = () => {    
     dispatch({
       type: "RESET",
       payload: {
